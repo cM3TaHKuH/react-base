@@ -1,6 +1,6 @@
-const Output=()=>{
+const Output=(props)=>{
     return(
-        <h2>Type Your Name</h2>
+        <h2>{props.value}</h2>
     )
 }
 
